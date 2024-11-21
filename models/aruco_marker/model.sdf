@@ -9,6 +9,7 @@
       </inertial>
       <kinematic>true</kinematic>
       <gravity>0</gravity>
+      <must_be_base_link>true</must_be_base_link>
       <collision name='base_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
