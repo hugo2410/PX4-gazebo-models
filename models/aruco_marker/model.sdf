@@ -2,6 +2,7 @@
 <sdf version='1.9'>
   <model name='aruco_marker'>
     <static>false</static>
+    <allow_auto_disable>false</allow_auto_disable>
     <link name='base'>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
@@ -9,12 +10,11 @@
       </inertial>
       <kinematic>true</kinematic>
       <gravity>0</gravity>
-      <must_be_base_link>true</must_be_base_link>
       <collision name='base_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>1 1 0.01</size>
+            <size>2 2 0.01</size>
           </box>
         </geometry>
       </collision>
@@ -23,7 +23,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>1 1</size>
+            <size>2 2</size>
           </plane>
         </geometry>
         <material>
