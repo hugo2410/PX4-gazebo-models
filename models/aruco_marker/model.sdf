@@ -3,6 +3,11 @@
   <model name='aruco_marker'>
     <static>false</static>
     <link name='base'>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+      </inertial>
+      <kinematic>true</kinematic>
       <gravity>0</gravity>
       <collision name='base_collision'>
         <pose>0 0 0 0 0 0</pose>
