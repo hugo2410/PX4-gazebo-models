@@ -14,7 +14,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>2 2 0.01</size>
+            <size>3 3 0.01</size>
           </box>
         </geometry>
       </collision>
@@ -23,7 +23,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>2 2</size>
+            <size>3 3</size>
           </plane>
         </geometry>
         <material>
