@@ -40,7 +40,7 @@
       <parent>base_link</parent>
       <child>camera_link</child>
     </joint>
-    <plugin filename="libbattery_plugin.so" name="gazebo::BatteryPlugin">
+    <plugin filename="libBatteryPlugin.so" name="gazebo::BatteryPlugin">
   </plugin>
   </model>
 </sdf>
